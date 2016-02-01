@@ -19,7 +19,7 @@ Timeline:
 Test Driven Development (TDD) is a style of programming with 3 primary activities:
 1) Coding
 2) Testing
-3) Refactoring
+3) Refactoring.
 BUT ... they are not done in that order.
 
 The key steps are:
@@ -28,7 +28,7 @@ The key steps are:
 3) write just enough code to pass the test
 4) run the test - hopefully it will pass
 5) refactor the code if needed
-6) repeat the process
+6) repeat the process.
 The cycle is very quick - each iteration should not take more than a couple of minutes.
 
 This is referred to as a Red, Green, Refactor cycle.  Each cycle moves the code forward just a bit.  One advantage
