@@ -9,7 +9,7 @@ Timeline:
 * 1994 - Kent Beck writes SUnit testing framework for Smalltalk
 * 1998 - Extreme Programming article about writing the test first
 * 1998 - 2002 Test first becomes Test Driven
-* 2003 - Kent Beck's Test Driven Development: By Example is published
+* 2003 - Kent Beck's "Test Driven Development: By Example" is published
 * 2006 - Test Driven Development is considered a relatively mature discipline
 
 
@@ -32,34 +32,14 @@ The key steps are:
 The cycle is very quick - each iteration should not take more than a couple of minutes.
 
 This is referred to as a Red, Green, Refactor cycle.  Each cycle moves the code forward just a bit.  One advantage
-of this is that you are never very far away from passing code.
+of this is that you are never very far away from passing code.  Studies have shown that it is a more efficient and more accurate way to develop software.
 
-TDD is often used in Agile Software Development environment.
-
-
+TDD is often used in an Agile Software Development environment.
 
 
 
 
-###User Process
-
-####General User
-* Sign up/sign in
-* Click on one of the tournaments (currently the Australian Open is the only one active)
-* Click on draws or player name to obtain more detailed information
-
-####Admin User
-* Sign up/sign in
-* Click on one of the tournaments (currently the Australian Open is the only one active)
-* Click on draws or player name to obtain more detailed information
-* Click on ADMIN FUNCTIONS to be directed to initial admin functions page.  From there, the admin user can Create, Update, Edit or Delete a player, country, or user.
 
 
 
-###Language and Framework Used
 
-* Ruby on Rails
-
-
-
-###Links
