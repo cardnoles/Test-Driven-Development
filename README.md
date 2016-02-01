@@ -5,7 +5,7 @@
 Timeline:
 
 * 1976 - publication of "software reliability" by Glenford Myers states a developer should never test their own code.
-* 1990 - black box techniques dominate
+* 1990 - black box techniques dominate (in black box testing, the tester does not know how the code works, only what it               should be doing in the end).
 * 1994 - Kent Beck writes SUnit testing framework for Smalltalk
 * 1998 - Extreme Programming article about writing the test first
 * 1998 - 2002 Test first becomes Test Driven
@@ -14,9 +14,31 @@ Timeline:
 
 
 
-###GrandSlamTennis Basics
+###Test Driven Development Basics
 
-GrandSlamTennis has two functions.  The first is for the general user who, after signing up/in, can get general information about players competing in Grand Slam events.  The second is for an admin user who can update player, country and user data.  The general user does not have access to the admin user pages. 
+Test Driven Development (TDD) is a style of programming with 3 primary activities:
+1) Coding
+2) Testing
+3) Refactoring
+BUT ... they are not done in that order.
+
+The key steps are:
+1) write the test
+2) run the test - make sure that it fails.  It is important that the test fails.
+3) write just enough code to pass the test
+4) run the test - hopefully it will pass
+5) refactor the code if needed
+6) repeat the process
+The cycle is very quick - each iteration should not take more than a couple of minutes.
+
+This is referred to as a Red, Green, Refactor cycle.  Each cycle moves the code forward just a bit.  One advantage
+of this is that you are never very far away from passing code.
+
+TDD is often used in Agile Software Development environment.
+
+
+
+
 
 
 ###User Process
